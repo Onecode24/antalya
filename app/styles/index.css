@@ -12,3 +12,59 @@ body {
   padding: 1em;
   background-color: #32475c13;
 }
+
+.text-gray {
+  color: #32475cb0;
+}
+
+.text-gray-base {
+  color: #32475c4e;
+}
+
+.navbar{
+  animation: hideNavBar 0.5s ease-in-out;
+}
+
+@keyframes hideNavBar {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.bg-card{
+  background-image: url('https://apply.antalya-edu.com/images/pages/banner-2.jpg');
+}
+
+.style-select{
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0.5em 2em;
+  outline: none;
+}
+
+
+.custom-select::before,
+.custom-select::after {
+  --size: 0.3rem;
+  position: absolute;
+  content: "";
+  right: 1rem;
+  pointer-events: none;
+}
+
+.custom-select::before {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-bottom: var(--size) solid black;
+  top: 40%;
+}
+
+.custom-select::after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid black;
+  top: 55%;
+}

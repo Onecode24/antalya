@@ -1,6 +1,7 @@
 "use client";
 import { ReactElement, useState } from "react";
 import Icon from "./icon";
+import Link from "next/link";
 
 
 function Dropdown(props: {children: ReactElement, contents : Array<string> }){
@@ -15,11 +16,16 @@ function Dropdown(props: {children: ReactElement, contents : Array<string> }){
                     <div  className="dropdown-content absolute  w-min mt-" >
                     <ul className="">
                         {props.contents.map((item, index) => (
-                            <ListItem text={item} key={index} 
-                            onClick={()=>{
-                                setIsOpen(false);
-                            }}
-                            ></ListItem>
+                                <Link
+                                 href={item}
+                                >
+                                    <ListItem text={item} key={index} 
+                                onClick={()=>{
+                                    setIsOpen(false);
+                                }}
+                                ></ListItem>
+                                </Link>
+                            
                         ))}
                     </ul>
                 </div>
