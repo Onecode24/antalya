@@ -1,0 +1,8 @@
+
+@font-face {
+    font-family: publicSans;
+    src: url('../../public/assets/fonts/PublicSans-Regular.ttf');
+}
+.public-sans{
+    font-family: publicSans;
+}
