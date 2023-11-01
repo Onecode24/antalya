@@ -6,3 +6,11 @@
 .public-sans{
     font-family: publicSans;
 }
+
+@font-face {
+    font-family: publicSansMedium;
+    src: url('../../public/assets/fonts/PublicSans-Medium.ttf');
+}
+.public-sans-medium{
+    font-family: publicSansMedium;
+}
