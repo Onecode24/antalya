@@ -17,9 +17,9 @@ function Dropdown(props: {children: ReactElement, contents : Array<string> }){
                     <ul className="">
                         {props.contents.map((item, index) => (
                                 <Link
-                                 href={item}
+                                 href={item} key={index}
                                 >
-                                    <ListItem text={item} key={index} 
+                                    <ListItem text={item} 
                                 onClick={()=>{
                                     setIsOpen(false);
                                 }}
