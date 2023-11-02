@@ -1,4 +1,4 @@
-import Icon from "./icon";
+import Icon from "./icondisplay";
 
 function Button(props: {text: string, icon?: string, onClick?: () => void}){
     return(

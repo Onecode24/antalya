@@ -1,7 +1,7 @@
 'use client';
 import { useState } from "react";
 import Button from "./button";
-import Icon from "./icon";
+import Icon from "./icondisplay";
 import DropDown from "./dropdown"
 
 

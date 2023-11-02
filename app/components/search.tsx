@@ -1,4 +1,4 @@
-import Icon from "./icon";
+import Icon from "./icondisplay";
 
 
 function Search(props: {sectors: Array<string>, placeholder: string}, icon: string){

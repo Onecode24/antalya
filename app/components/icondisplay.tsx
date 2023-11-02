@@ -2,7 +2,7 @@ import { getIconUrl } from '../utils/image'
 import Image from 'next/image'
 
 
- function  Icon(props: { name: string, width?: number, height?: number }){
+ function  IconDisplay(props: { name: string, width?: number, height?: number }){
     return(
         <div className="flex flex-col items-center justify-center">
             <Image
@@ -15,4 +15,4 @@ import Image from 'next/image'
     )
 }
 
-export default Icon
+export default IconDisplay

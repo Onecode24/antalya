@@ -1,4 +1,4 @@
-import Icon from "./icon";
+import Icon from "./icondisplay";
 function NavBar(){
     return (
         <nav className="bg-white w-max h-[100vh] ">

@@ -1,4 +1,4 @@
-import Icon from "./icon"
+import Icon from "./icondisplay"
 import DropDown from "./dropdown"
 import Button from "./button"
 
