@@ -21,6 +21,10 @@ body {
   color: #32475c4e;
 }
 
+.text-base-gray {
+  color: rgba(50, 71, 92, 0.6);
+}
+
 .navbar{
   animation: hideNavBar 0.5s ease-in-out;
 }
@@ -67,4 +71,12 @@ body {
   border-right: var(--size) solid transparent;
   border-top: var(--size) solid black;
   top: 55%;
+}
+
+.border-blue-flat{
+  border-color: rgb(4, 184, 208);
+}
+
+.text-blue-flat{
+  color: rgb(4, 184, 208);
 }

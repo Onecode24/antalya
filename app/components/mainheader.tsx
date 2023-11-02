@@ -9,7 +9,7 @@ function MainHeader(){
     const [navbarOpen, setNavbarOpen] = useState(false)
     return(
         <section>
-        {/* header */}
+        {/* header */}  
         <header className="flex border justify-between md:justify-end items-center bg-white px-5 py-3 rounded-md fixed  w-[90%]  md:w-[95vw] lg:w-[98vw] ">
             <div className="md:hidden" onClick={()=>{setNavbarOpen(true)}}>
                 <Icon name="menu" ></Icon>

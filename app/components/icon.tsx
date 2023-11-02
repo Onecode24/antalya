@@ -1,9 +1,8 @@
-import '../styles/index.css'
 import { getIconUrl } from '../utils/image'
 import Image from 'next/image'
 
 
-export default function  Icon(props: { name: string, width?: number, height?: number }){
+ function  Icon(props: { name: string, width?: number, height?: number }){
     return(
         <div className="flex flex-col items-center justify-center">
             <Image
@@ -15,3 +14,5 @@ export default function  Icon(props: { name: string, width?: number, height?: nu
         </div>
     )
 }
+
+export default Icon
